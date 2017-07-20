@@ -1,10 +1,4 @@
-#
-# NOTE: THIS DOCKERFILE IS GENERATED VIA "update.sh"
-#
-# PLEASE DO NOT EDIT IT DIRECTLY.
-#
-
-FROM alpine:3.4
+FROM alpine:3.6
 
 # persistent / runtime deps
 ENV PHPIZE_DEPS \
